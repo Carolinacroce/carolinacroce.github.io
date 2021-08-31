@@ -1,7 +1,159 @@
 <!DOCTYPE html>
+<title>Carolina Croce</title>
 <html>
+<div class= "sfondo">
+ <img src="immagini/header.png" style="width:100%">
+ 
+
+<header>
+<link rel= "stylesheet" href="style.css" type="text/css">
+<ul class="flex-logo"> <img src= "immagini/logo.png"></ul>    INSERIRE LOGO
+<ul class="flex-container">
+  <li class="flex-menu"><a href="index.html" >Home</a></li>
+ 
+  <li class="flex-menu"><a href="portfolio.html">Portfolio</a></li>
+  <li class="flex-menu"><a href="bio.html">Bio</a></li>
+  
+  <li class="flex-menu"><a href="Shop.html">Shop</a></li>
+  <li class="flex-menu"><a href="contatti.html">Contatti</a></li>
+  
+</ul>
+</header>
+
 <body>
-<h1>Hello World</h1>
-<p>Mi chiamo Carolina.</p>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+
+    <img src="immagini/1.jpg" style="width:100%">
+	<div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="immagini/12.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="immagini/3.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="immagini/4.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+   <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="immagini/5.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+ 
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+<script>  
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+<div class="w3-container w3-margin"><div class="paragrafo"><p> <a name=" Bio">
+<h2>Chi Sono!</h2>
+Ciao! 
+Mi chiamo Carolina e sono un'illustratrice e Graphic designer di napoli.<br>
+Sono laureata in Scenografia e attualmente sono una specializzanda in Design della Comunicazione| Editoria, Illustrazione e fumetto presso l'Accademia di belle arti di Napoli.<br>
+Fin da bambina ho dimostrato molto interesse verso il disegno e l'arte in generale, una passione che mi ha portato a centrare tutto il mio percorso di studi sul disegno e la progettazione. <br>
+Con la costante ricerca di uno stile tutto mio, mi diletto in varie tecniche che vanno dal tradizionale al digitale.<br>
+Oltre all'illustrazione ho un grande interesse e passione per la Grafica Editoriale.<br>
+Spero che questa piccola vetrina sul mio mondo vi porti un po' di spensieratezza ed emozioni!<br>
+<img src="immagini/io.jpg" class="avatar"
+style= "border-radius: 50%;">
+</a> </p> </div></div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="immagini/1.jpg" style="width:100%">
+    <img src="immagini/5.jpg" style="width:100%">
+    <img src="immagini/3.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="immagini/7.jpg" style="width:100%">
+  
+    <img src="immagini/9.jpg"style="width:100%">
+    <img src="immagini/4.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="immagini/2.jpg" style="width:100%">
+    <img src="immagini/8.jpg" style="width:100%">
+    <img src="immagini/6.jpg" style="width:100%">
+  </div>
+</div>
+
+	
 </body>
+<footer>
+<div class="footer"><img src="immagini/footer.png" style="width:100%"><div class="centered">Web design by Carolina Croce</div></div>
+</footer>
+</div>
 </html>
