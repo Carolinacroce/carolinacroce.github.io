@@ -7,14 +7,14 @@
 
 <header>
 <link rel= "stylesheet" href="style.css" type="text/css">
-<ul class="flex-logo"> <img src= "immagini/logo.png"></ul>    INSERIRE LOGO
+<ul class="flex-logo"> <img src= "immagini/logo.png" class="center"></ul>    INSERIRE LOGO
 <ul class="flex-container">
   <li class="flex-menu"><a href="index.html" >Home</a></li>
  
   <li class="flex-menu"><a href="portfolio.html">Portfolio</a></li>
   <li class="flex-menu"><a href="bio.html">Bio</a></li>
   
-  <li class="flex-menu"><a href="Shop.html">Shop</a></li>
+  
   <li class="flex-menu"><a href="contatti.html">Contatti</a></li>
   
 </ul>
@@ -28,13 +28,13 @@
     <div class="numbertext">1 / 5</div>
 
     <img src="immagini/1.jpg" style="width:100%">
-	<div class="text">Caption Text</div>
+	<div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
     <img src="immagini/12.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
@@ -49,7 +49,7 @@
   </div>
    <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
-    <img src="immagini/5.jpg" style="width:100%">
+    <img src="immagini/9.jpg" style="width:100%">
     <div class="text"></div>
   </div>
  
@@ -97,33 +97,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
 </script>
 
 <br>
 <div class="w3-container w3-margin"><div class="paragrafo"><p> <a name=" Bio">
-<h2>Chi Sono!</h2>
-Ciao! 
-Mi chiamo Carolina e sono un'illustratrice e Graphic designer di napoli.<br>
+<h2>Mi presento!</h2>
+Ciao, 
+mi chiamo Carolina e sono un'illustratrice e Graphic designer di napoli.<br>
 Sono laureata in Scenografia e attualmente sono una specializzanda in Design della Comunicazione| Editoria, Illustrazione e fumetto presso l'Accademia di belle arti di Napoli.<br>
 Fin da bambina ho dimostrato molto interesse verso il disegno e l'arte in generale, una passione che mi ha portato a centrare tutto il mio percorso di studi sul disegno e la progettazione. <br>
 Con la costante ricerca di uno stile tutto mio, mi diletto in varie tecniche che vanno dal tradizionale al digitale.<br>
-Oltre all'illustrazione ho un grande interesse e passione per la Grafica Editoriale.<br>
+Oltre all'illustrazione ho un grande interesse e passione per il Design.<br>
 Spero che questa piccola vetrina sul mio mondo vi porti un po' di spensieratezza ed emozioni!<br>
 <img src="immagini/io.jpg" class="avatar"
 style= "border-radius: 50%;" align="right">
@@ -152,7 +136,10 @@ style= "border-radius: 50%;" align="right">
 
 	</body>
 <footer>
-<div class="footer"><img src="immagini/footer.png" style="width:100%"><div class="centered">Web design by Carolina Croce</div></div>
+<div class="footer"><img src="immagini/footer.png" style="width:100%"><div class="centered">Web design by Carolina Croce</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.instagram.com/carolcross_art95/" class="fa fa-instagram"></a><a href="https://www.facebook.com/carolinacroceart" class="fa fa-facebook"></a><a href="https://www.behance.net/carolinacroce" class="fa fa-behance"></a></div>
 </footer>
 </div>
 </html>
