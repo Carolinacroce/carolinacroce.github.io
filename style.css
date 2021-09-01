@@ -1,5 +1,5 @@
 .sfondo {
-	background-color: #FFF0F5;
+	background-color: white;
 	
 }
 
@@ -14,6 +14,7 @@
   margin: 10 px;
   list-style: none;
   font-family: century gothic;
+  font-weight: bold;
  }
 
 
@@ -25,7 +26,7 @@
   margin-top: 20 px;
   line-height: 100px;
   color: #7FFFD4;
-  font-weight: bold;
+  
   font-size: 10 px;
   overflow: hidden;
   text-align: center;
@@ -47,8 +48,8 @@
   background-color: #00CED1;
   color: white;
   text-align: justify-content;
-  padding: 100;
-  margin-top: 150x 150 px;
+  padding: 150px ;
+  margin-top: 120px 150 px;
   list-style: none;
   font-family: century gothic;
   
@@ -142,7 +143,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 700px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -160,7 +161,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: orange;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -208,7 +209,7 @@
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color  ease;
 }
 
 .active, .dot:hover {
