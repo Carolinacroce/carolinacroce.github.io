@@ -15,7 +15,7 @@
   display: flex;
   text-align: center;
   flex-flow: row wrap;
-  padding: 10px 0px;
+  padding: 0px 0px;
   justify-content: space-evenly;
   margin: 10 px;
   list-style: none;
@@ -27,7 +27,7 @@
 
 .flex-menu {
   background: none;
-  padding: 5 px;
+  padding: 0 px;
   width: 50 px;
   height: 50 px;
   margin-top: 20 px;
