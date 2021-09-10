@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <title>Carolina Croce</title>
 <html>
-<ul class="flex-logo">  </ul>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class= "sfondo">
- <img src="immagini/header.png" style="width:100%">
- 
+
 <header>
 <link rel= "stylesheet" href="style.css" type="text/css">
-
-<ul class="flex-container">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<ul class="flex-container" > 
+<img src="immagini/header.png" meta name="viewport" content="width=device-width, initial-scale=1">
   <li class="flex-menu"><a href="index.html" >Home</a></li>
   <li class="flex-menu"><a href="portfolio.html">Portfolio</a></li>
   <li class="flex-menu"><a href="bio.html">Bio</a></li>
   <li class="flex-menu"><a href="contatti.html">Contatti</a></li>
-  
+</ul>
+ <div id="navbar">
+ <a href="index.html" >Home</a>
+  <a href="portfolio.html">Portfolio</a>
+<a href="contatti.html">Contatti</a>
+</div>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var flex-container = document.getElementById("flex-container");
+
+// Get the offset position of the navbar
+var sticky = flex-container.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+   flex-container.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script> 
 </ul>
 </header>
 
@@ -97,7 +121,8 @@ function showSlides(n) {
 </script>
 
 
-<div class="w3-container w3-margin"><div class="paragrafo"><p> <a name=" Bio">
+<div class="w3-container w3-margin"><div class="flex-container-paragrafo"><p> <a name=" Bio">
+<div>
 <h2>Mi presento!</h2>
 Ciao, 
 mi chiamo Carolina e sono un'illustratrice e Graphic designer di napoli.<br>
@@ -109,70 +134,18 @@ Spero che questa piccola vetrina sul mio mondo vi porti un po' di spensieratezza
 <img class= "img1" src="immagini/io.jpg" class="avatar"
 style= "border-radius: 50%;" align="right">
 </a> </p> </div>
-<body>
-
-<div class="row"> 
-  <div class="column">
-    <img src="immagini/1.jpg" style="width:100%">
-    <img src="immagini/5.jpg" style="width:100%">
-    <img src="immagini/3.jpg" style="width:100%">
-  </div>
-  
-  <div class="column">
-    <img src="immagini/7.jpg" style="width:100%">
-  
-    <img src="immagini/9.jpg"style="width:100%">
-    <img src="immagini/4.jpg" style="width:100%">
-  </div> 
-   
-  <div class="column">
-    <img src="immagini/2.jpg" style="width:100%">
-    <img src="immagini/8.jpg" style="width:100%">
-    <img src="immagini/6.jpg" style="width:100%">
-  </div>
-</div>
-
-<div class="row"> 
-  <div class="column">
-    <img src="immagini/17.jpg" style="width:100%">
-    <img src="immagini/9.jpg" style="width:100%">
-    <img src="immagini/10.jpg" style="width:100%">
-    
-  </div>
-  
-  <div class="column">
-    <img src="graphic/g1.jpg" style="width:100%">
-    <img src="graphic/g3.jpg" style="width:100%">
-    <img src="ritratti/r1.jpg" style="width:100%">
-
-  </div> 
-   
-  <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
- 
-  </div>
-  
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-
-  </div>
-</div>
-
-
-
-	</body>
+</div> </div>
+</body>
 <footer>
 <div class="footer"><img src="immagini/footer.png" style="width:100%" ><div class="centered">Web design by Carolina Croce </div>
  <div class="posizione"><meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <a href="https://www.instagram.com/carolcross_art95/" class="fa fa-instagram"></a><a href="https://www.facebook.com/carolinacroceart" class="fa fa-facebook"></a><a href="https://www.behance.net/carolinacroce" class="fa fa-behance"></a></div></div>
 </div>
 
 </footer>
+</div>
 </div>
 </div>
 </html>

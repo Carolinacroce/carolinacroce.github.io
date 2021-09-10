@@ -2,6 +2,41 @@
 	background-color: white;
 	
 }
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+	
+
 
 .center {
   display: block;
@@ -15,54 +50,50 @@
   display: flex;
   text-align: center;
   flex-flow: row wrap;
-  padding: 0px 0px;
-  justify-content: space-evenly;
-  margin: 10 px;
+  justify-content: e-around;
   list-style: none;
   font-family: century gothic;
   font-weight: bold;
   color: red;
  }
 
-
+/* per modifiare distanza tra link sul menù esempio"home ..." vai su padding */
 .flex-menu {
   background: none;
   padding: 0 px;
   width: 50 px;
   height: 50 px;
   margin-top: 20 px;
-  line-height: 100px;
-  color:yellow;
   
+  color:yellow;
   font-size: 10 px;
   overflow: hidden;
   text-align: center;
-  padding: 5px 5px;
+  padding: 5px 50px; 
 }
 
-.flex-logo	{
-	width: 15%;
- justify-content: right;
-
-  float: center;
 
  
-}
+
 * {
   box-sizing: border-box;
   justify-content: center;
 }
+.flex-container {
+  display: flex;
 
-.paragrafo {
+}
+
+.flex-container-paragrafo>div {
 	justify-content: center;
   background-color: #00CED1;
   color: white;
   text-align: justify-content;
-  padding: 150px ;
-  margin-top: 120px 150 px;
-  list-style: none;
+ list-style: none;
   font-family: century gothic;
-  
+  margin:15px;
+  padding: 50px 120px;
+  font-size: 15px;
 
   
 }
@@ -70,7 +101,7 @@
 .w3-container w3-margin
  .alignright {
 	  float: right;
-	  padding: 15px 0 15px 15px; 
+	  padding: 30px 0 30px 15px; 
 	  height: 200px;
 	  border-radius: 50%;
 }
@@ -332,8 +363,8 @@ margin: 0 auto;
 }
 
 body {
-  background-color: #f1f1f1;
-  padding: 20px;
+ 
+
   font-family: century gothic	;
   
 }
@@ -465,7 +496,7 @@ h1 {
   box-sizing: border-box;
 }
 
-body {
+.body {
   margin: 0;
   font-family: Arial;
 }
