@@ -1,3 +1,12 @@
+@media (max-width: 1200px) { ... } /* for desktops */
+
+@media (max-width: 991px) { ... } /* for laptops */
+
+@media (min-width: 768px) and (max-width: 990px) { ... } /* for large tablets */
+
+@media (max-width: 768px) { ... } /* for smaller tablets */
+
+@media (max-width: 500px) { 20px } /* for cellphones */
 .sfondo {
 	background-color: white;
 	
@@ -35,9 +44,9 @@
   padding-top: 60px;
 }
 
-	
-
-
+h2{
+	padding-left: 10px;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -46,8 +55,7 @@
 
 }
 .flex-container {
-
-  display: flex;
+	display: flex;
   text-align: center;
   flex-flow: row wrap;
   justify-content: e-around;
@@ -55,7 +63,8 @@
   font-family: century gothic;
   font-weight: bold;
   color: red;
- }
+  
+}
 
 /* per modifiare distanza tra link sul menù esempio"home ..." vai su padding */
 .flex-menu {
@@ -73,14 +82,15 @@
 }
 
 
- 
-
 * {
   box-sizing: border-box;
   justify-content: center;
+  text-decoration: none;
+
 }
 .flex-container {
   display: flex;
+  
 
 }
 
@@ -91,9 +101,10 @@
   text-align: justify-content;
  list-style: none;
   font-family: century gothic;
-  margin:15px;
+  margin:80px;
   padding: 50px 120px;
   font-size: 15px;
+  border-radius: 100px;
 
   
 }
@@ -144,14 +155,14 @@
   position: relative;
   text-align: center;
   color: white;
-  padding: 10px;
-  margin-top: 10px;
+
+
 }
 
 
 .centered {
   position: absolute;
-  top: 80%;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family:  century gothic ;
@@ -168,23 +179,33 @@
 
 .img1 {
   vertical-align: middle;
-  width: 150px;
-  height: 150px;
-  border-radius: 55%;
-  float: right;
-}
+  width: 100px;
+  height: auto;
 
- 
+  float: right;
+
+max-width: 100em;
+   
+}
+  
+
+
+ @media only screen and (min-width: 768px) {
+  /* For desktop: */
+  
+ }
 
 /*------tab 
 -----------------*/
-@media (max-width: 998px) {
+@media (max-width: 600px) {
 }
 
 /*------smartphone 
 -----------------*/
+
 @media (max-width: 1968 px) {
 }
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -281,9 +302,6 @@
 }
 
 
-
-
-
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
  background-color: orange;
@@ -298,15 +316,12 @@ input[type=submit] {
 }
 
 
-
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
  background-color: black;
 background-position: center;
 
 }
-
-
 
 /* Add a background color and some padding around the form */
 .email {
@@ -354,8 +369,9 @@ padding-right: 25px;
 border-left: 25px  ;
 border-right: 25px  ;
 margin: 0 auto;
+padding-top:20px; 
+padding-bottom:15px; 
 }
-
 
 
 * {
@@ -364,6 +380,10 @@ margin: 0 auto;
 
 body {
  
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 
   font-family: century gothic	;
   
@@ -381,7 +401,7 @@ h1 {
 }
 
 .row {
-  margin: 8px -20px;
+
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -431,6 +451,7 @@ h1 {
   background-color: white;
   cursor: pointer;
  font-family: century gothic;
+margin-left: 10px;
   
 }
 
@@ -444,6 +465,7 @@ h1 {
 .btn.active {
   background-color: #FFA500;
    color: white;
+   
    
 }
 .fa-instagram {
@@ -487,7 +509,7 @@ h1 {
 
 .posizione {
 	 position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -496,14 +518,12 @@ h1 {
   box-sizing: border-box;
 }
 
-.body {
-  margin: 0;
-  font-family: Arial;
-}
 
-.header {
+
+header {
   text-align: center;
-  padding: 32px;
+  text-decoration: none;
+
 }
 
 .row {
