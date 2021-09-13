@@ -91,6 +91,7 @@ h2{
 
 }
 
+	
 .flex-container-paragrafo>div {
 	justify-content: center;
   background-color: #00CED1;
@@ -104,6 +105,7 @@ h2{
   border-radius: 100px;
  
 }
+	}
  
 .w3-container w3-margin
  .alignright {
