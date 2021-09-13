@@ -1,4 +1,4 @@
-<link rel= "stylesheet" href="mobile.css" type="text/css">
+
 .sfondo {
 	background-color: white;
 	
@@ -434,7 +434,6 @@ h1 {
   background-color: pink;
   padding: 50px ;
 
-
 }
 
 /* The "show" class is added to the filtered elements */
@@ -482,11 +481,8 @@ margin-left: 10px;
 .fa-behance {
   background: orange;
   color: white;
-
   
 }
-
-
 
   .fa {
   padding: 20px;
@@ -508,7 +504,7 @@ margin-left: 10px;
 }
 
 /* loghi social media*/
-@media (max-width: 768px) { 20px } /* for cellphones */
+
 .posizione {
 	 position: absolute;
   top: 90%;
@@ -519,9 +515,6 @@ margin-left: 10px;
 * {
   box-sizing: border-box;
 }
-
-
-
 
 
 .row {
