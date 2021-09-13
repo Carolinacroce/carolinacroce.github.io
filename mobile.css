@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
 	header{
 		 
 		float:none;
@@ -69,3 +69,8 @@ text-decoration: none;
   margin-right: auto;
 }
 }
+
+@media screen and (max-width: 400px) {
+
+}
+	
