@@ -1,12 +1,4 @@
-@media (max-width: 1200px) { ... } /* for desktops */
 
-@media (max-width: 991px) { ... } /* for laptops */
-
-@media (min-width: 768px) and (max-width: 990px) { ... } /* for large tablets */
-
-@media (max-width: 768px) { ... } /* for smaller tablets */
-
-@media (max-width: 500px) { 20px } /* for cellphones */
 .sfondo {
 	background-color: white;
 	
@@ -151,6 +143,7 @@ h2{
   }
 }
 
+@media (max-width: 500px) { 20px } /* for cellphones */
 .footer {
   position: relative;
   text-align: center;
@@ -371,6 +364,7 @@ border-right: 25px  ;
 margin: 0 auto;
 padding-top:20px; 
 padding-bottom:15px; 
+margin-top: 50px;
 }
 
 
