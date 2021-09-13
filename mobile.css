@@ -1,2 +1,28 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+	header{
+		 
+		float:none;
+		height:auto;
+		border-right: none;
+		display: block;
+		text-align: center;
+	
+		
+	}
 }
+
+@media screen and (min-width: 480px) {
+.flex-container-paragrafo > div {
+ justify-content: center;
+ color: white;
+ text-align: justify-content;
+ list-style: none;
+ font-family: century gothic;
+ margin: 30px;
+ padding: 20px 20px;
+ border-radius: 50px;
+ font-size: 10 px;
+ 
+  }
+}
+

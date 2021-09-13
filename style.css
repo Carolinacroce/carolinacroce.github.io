@@ -3,6 +3,11 @@
 	background-color: white;
 	
 }
+header {
+  text-align: center;
+  text-decoration: none;
+
+}
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -143,7 +148,7 @@ h2{
   }
 }
 
-@media (max-width: 500px) { 20px } /* for cellphones */
+@media (max-width: 600px) { 20px } /* for cellphones */
 .footer {
   position: relative;
   text-align: center;
@@ -501,24 +506,22 @@ margin-left: 10px;
     opacity: 0.7;
 }
 
+/* loghi social media*/
+@media (max-width: 768px) { 20px } /* for cellphones */
 .posizione {
 	 position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+}
 * {
   box-sizing: border-box;
 }
 
 
 
-header {
-  text-align: center;
-  text-decoration: none;
 
-}
 
 .row {
   display: flex;
