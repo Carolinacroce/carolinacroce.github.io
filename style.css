@@ -149,7 +149,7 @@ h2{
   }
 }
 
-@media (max-width: 600px) { 20px } /* for cellphones */
+ /* for cellphones */
 .footer {
   position: relative;
   text-align: center;
