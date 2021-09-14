@@ -11,6 +11,11 @@
 	}
 }
 @media screen and (max-width: 400px) {
+	.flex-container {
+		padding-left: 0px;
+	}
+	
+@media screen and (max-width: 400px) {
 .flex-menu {
   background: none;
   padding: 0 px;
