@@ -189,7 +189,7 @@ max-width: 100em;
   
 
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (max-width: 768px) {
   /* For desktop: */
   
  }
@@ -202,7 +202,7 @@ max-width: 100em;
 /*------smartphone 
 -----------------*/
 
-@media (max-width: 1968 px) {
+@media (max-width: 400 px) {
 }
 
 * {box-sizing:border-box}
@@ -358,7 +358,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
+/* Add a background color and some padding around the form box email*/
 .container {
   border-radius: 15px;
   background-color: pink;
