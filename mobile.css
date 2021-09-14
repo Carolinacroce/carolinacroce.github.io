@@ -76,6 +76,17 @@ text-decoration: none;
 }
 
 @media screen and (max-width: 400px) {
-
+.btn {
+	padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+padding-left: 5px;
+margin-left: 12px;
+}
 }
 	
+	@media screen and (max-width: 400px) {
+		h4 {
+			margin-left: 12px;
+		}
+	}
