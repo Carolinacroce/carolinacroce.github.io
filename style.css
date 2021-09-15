@@ -3,6 +3,13 @@
 	background-color: white;
 	
 }
+.flex-container
+a:visited {
+  color: #00CED1;
+  background-color: transparent;
+  text-decoration: none;
+}
+}
 header {
   text-align: center;
   text-decoration: none;
