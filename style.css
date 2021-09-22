@@ -350,8 +350,10 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input
+[type=submit] {
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -380,6 +382,16 @@ padding-bottom:15px;
 margin-top: 50px;
 }
 
+.email {
+	padding-right: 80px;
+
+margin-bottom: 10px;
+	
+}
+.bottone {
+	background-color: pink;
+	margin-left: 215px;
+}
 
 * {
   box-sizing: border-box;
