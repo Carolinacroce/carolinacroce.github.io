@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 400px) {
 	header{
 		 
@@ -98,3 +99,10 @@ margin-left: 12px;
 			margin-left: 12px;
 		}
 	}
+
+@media screen and (max-width: 400px) {
+	.container {
+margin-bottom: 95px;
+margin-top: 70px;
+}
+}
