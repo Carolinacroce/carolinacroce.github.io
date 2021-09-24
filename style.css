@@ -5,7 +5,7 @@
 }
 .flex-container
 a:visited {
-  color: #00CED1;
+  color: #008080;
   background-color: transparent;
   text-decoration: none;
 }
@@ -473,7 +473,7 @@ margin-left: 10px;
    
 }
 .fa-instagram {
-  background: #FFAEB9;
+  background:#F08080;
   color: white;
   
 }
