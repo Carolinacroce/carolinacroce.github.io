@@ -156,7 +156,7 @@ h2{
   }
 }
 
- /* for cellphones */
+
 .footer {
   position: relative;
   text-align: center;
@@ -196,21 +196,7 @@ max-width: 100em;
   
 
 
- @media only screen and (max-width: 768px) {
-  /* For desktop: */
-  
- }
 
-/*------tab 
------------------*/
-@media (max-width: 600px) {
-}
-
-/*------smartphone 
------------------*/
-
-@media (max-width: 400 px) {
-}
 
 * {box-sizing:border-box}
 
