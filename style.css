@@ -48,9 +48,7 @@ header {
   padding-top: 60px;
 }
 
-h2{
-	padding-left: 10px;
-}
+
 .center {
   display: block;
   margin-left: auto;
@@ -104,7 +102,7 @@ h2{
 	justify-content: center;
   background-color: #00CED1;
   color: white;
-  text-align: justify-content;
+  text-align: justify;
  list-style: none;
   font-family: century gothic;
   margin:80px;
